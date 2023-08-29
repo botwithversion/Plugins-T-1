@@ -14,28 +14,9 @@ async def _(event):
 
 @bot.on(events.NewMessage(from_users=[5364964725]))
 async def _(event):
-    if 'A wild Deoxys' in event.raw_text:
-        await bot.disconnect()
-        os.execl(sys.executable, sys.executable, *sys.argv)
-    if 'A wild Arceus' in event.raw_text:
-        await bot.disconnect()
-        os.execl(sys.executable, sys.executable, *sys.argv)
-    if 'A wild Dialga' in event.raw_text:
-        await bot.disconnect()
-        os.execl(sys.executable, sys.executable, *sys.argv)
-    if 'A wild Palkia' in event.raw_text:
-        await bot.disconnect()
-        os.execl(sys.executable, sys.executable, *sys.argv)
-    if 'A wild Giratina' in event.raw_text:
-        await bot.disconnect()
-        os.execl(sys.executable, sys.executable, *sys.argv)
-    if 'A wild Regigigas' in event.raw_text:
-        await bot.disconnect()
-        os.execl(sys.executable, sys.executable, *sys.argv)
-    if 'A wild Darkrai' in event.raw_text:
-        await bot.disconnect()
-        os.execl(sys.executable, sys.executable, *sys.argv)
-    if 'Shiny pokemon found!' in event.raw_text:
+    if 'Wait , a group of monster is approaching.... 
+
+if monster not appearing in 10 seconds , press /captcha' in event.raw_text:
         await bot.disconnect()
         os.execl(sys.executable, sys.executable, *sys.argv)
     
